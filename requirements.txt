@@ -1,0 +1,7 @@
+pytest >= 8.1.1
+assertpy >= 1.1
+selenium >= 4.19.0
+pytest-xdist >= 3.5.0
+pytest-sugar >= 1.0.0
+nullsafe >= 0.2.1
+allure-pytest >= 2.13.5
