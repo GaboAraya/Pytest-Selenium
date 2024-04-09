@@ -1,6 +1,6 @@
 import pytest
 
-from fixtures.page import page
+from automation.fixtures.page import page
 
 
 @pytest.fixture(name="navigate_main_page")

@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 
-from page_objects.generic.submenu import SubMenu
+from automation.page_objects.generic.submenu import SubMenu
 
 
 class DropdownMenu(WebElement):

@@ -2,12 +2,12 @@ import allure
 from assertpy import assert_that
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait
-from fixtures.navigation import fixture_navigate_storage as navigate_storage
-from fixtures.navigation import fixture_navigate_main_page as navigate_main_page
-from fixtures.page import page
-from page_objects.components.navbar import Navbar
-from page_objects.components.nearest_storage_facility import NearestStorageFacility
-from page_objects.pages.storage_results import StorageResults
+from automation.fixtures.page import page
+from automation.fixtures.navigation import fixture_navigate_storage as navigate_storage
+from automation.fixtures.navigation import fixture_navigate_main_page as navigate_main_page
+from automation.page_objects.components.navbar import Navbar
+from automation.page_objects.components.nearest_storage_facility import NearestStorageFacility
+from automation.page_objects.pages.storage_results import StorageResults
 
 
 @allure.title("Find a storage using location")

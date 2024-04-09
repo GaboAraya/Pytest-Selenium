@@ -2,7 +2,7 @@ import pytest
 from nullsafe import _
 from selenium import webdriver
 
-from common.enums import Browser
+from automation.common.enums import Browser
 
 
 @pytest.fixture

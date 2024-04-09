@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-from page_objects.generic.navbar_menu import NavbarMenu
+from automation.page_objects.generic.navbar_menu import NavbarMenu
 
 
 class Navbar:

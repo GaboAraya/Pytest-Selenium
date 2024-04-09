@@ -1,4 +1,4 @@
-from common.enums import Browser
+from automation.common.enums import Browser
 
 
 def pytest_addoption(parser):

@@ -2,7 +2,7 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
-from page_objects.generic.dropdown_menu import DropdownMenu
+from automation.page_objects.generic.dropdown_menu import DropdownMenu
 
 
 class NearestStorageFacility:
